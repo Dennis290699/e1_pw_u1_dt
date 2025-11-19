@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container,
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.form-container {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    margin: 25px;
+}
+
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-data label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-data input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-container button {
+    background-color: #000;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+
+.btn-container button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.msg-error {
+    color: red;
+    margin: 5px;
+    display: none;
+}
+
+.msg-exito {
+    color: green;
+    margin: 5px;
+    display: none;
+}
+
+.section-registro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.register-table {
+    width: 90%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.register-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.register-table th,
+.register-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.register-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
